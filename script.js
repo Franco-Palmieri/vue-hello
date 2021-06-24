@@ -9,12 +9,12 @@ const app = new Vue(
             text: "",
             classProva: "block",
             testoBottone: "Daje",
+            picture: ".img/quadraro.jpg"
         },
         methods: {
             saluto: function (){
                 alert(`Buongiorno ${this.text}!`);
             },
-
             prova: function (){
                 if (this.classProva === "block"){
                     this.testoBottone = "Aridaje";
