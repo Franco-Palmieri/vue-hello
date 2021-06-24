@@ -8,8 +8,8 @@ const app = new Vue(
             // eseguita in funzione di...
             text: "",
             classProva: "block",
-            testoBottone: "Daje",
-            picture: "./img/quadraro.jpg"
+            testoBottone: "Daje!",
+            picture: "./img/quadraro.jpg",
         },
         methods: {
             saluto: function (){
