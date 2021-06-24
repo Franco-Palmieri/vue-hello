@@ -9,7 +9,7 @@ const app = new Vue(
             text: "",
             classProva: "block",
             testoBottone: "Daje",
-            picture: ".img/quadraro.jpg"
+            picture: "./img/quadraro.jpg"
         },
         methods: {
             saluto: function (){
