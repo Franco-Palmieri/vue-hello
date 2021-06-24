@@ -7,10 +7,22 @@ const app = new Vue(
             // la nostra app si attiverà e verrà 
             // eseguita in funzione di...
             text: "",
+            classProva: "block",
+            testoBottone: "Daje",
         },
         methods: {
             saluto: function (){
                 alert(`Buongiorno ${this.text}!`);
+            },
+
+            prova: function (){
+                if (this.classProva === "block"){
+                    this.testoBottone = "Aridaje";
+                    this.classProva = "none";
+                }else {
+                    this.testoBottone = "Daje!"
+                    this.classProva = "block";
+                }
             }
         },
     }

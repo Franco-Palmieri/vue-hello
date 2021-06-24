@@ -6,11 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="app">
         <input type="text" v-model="text" placeholder="Inserisci nome">
-        <button @click="saluto">Cliccami</button>
+        <button @click="saluto">Clicca</button>
+        <br>
+        <hr>
+        <br>
+        <div :class="classProva">{{ text }}</div>
+        <button @click="prova">{{ testoBottone }}</button>
     </div>
     <script src="script.js"></script>
 </body>
